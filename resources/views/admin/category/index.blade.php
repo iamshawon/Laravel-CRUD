@@ -62,7 +62,7 @@ All Category
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-sm-4">
             <div class="card">
                 <div class="card-header"> Add Category
                 </div>    
@@ -92,7 +92,7 @@ All Category
             </div>
         </div>
  
-        <div class="col-md-8"><br>
+        <div class="col-sm-8"><br>
             <div class="card">
                 <div class="card-header"> Trash List
                 </div>    
