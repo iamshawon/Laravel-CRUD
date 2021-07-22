@@ -11,4 +11,9 @@ class Category extends Model
     protected $fillable = [
         'user_id', 'category_name',
     ];
+
+    // Join with messages & users table
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
 }

@@ -45,7 +45,7 @@ All Category
                                 <tr>
                                     <td>{{$allcategory_view->id}}</td>
                                     <td>{{$allcategory_view->category_name}}</td>
-                                    <td>User {{$allcategory_view->user_id}}</td>
+                                    <td>{{$allcategory_view->User->name}}</td>
                                     <td>{{$allcategory_view->created_at->diffForHumans()}}</td>
                                     <td>
                                         <a href="{{url('edit/category/' . $allcategory_view->id)}}" class="btn btn-primary btn-sm">Edit</a>
@@ -129,7 +129,7 @@ All Category
                                 <tr>
                                     <td>{{$trashcategory_view->id}}</td>
                                     <td>{{$trashcategory_view->category_name}}</td>
-                                    <td>User {{$trashcategory_view->user_id}}</td>
+                                    <td>{{$trashcategory_view->User->name}}</td>
                                     <td>{{$trashcategory_view->deleted_at->diffForHumans()}}</td>
                                     <td>
                                         <a href="{{url('restore/category/' . $trashcategory_view->id)}}" class="btn btn-primary btn-sm">Restore</a>
